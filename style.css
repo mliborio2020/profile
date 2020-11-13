@@ -1,0 +1,93 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: rgb(240, 240, 240);
+  color: black;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+h1, h2 {
+  color: teal;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 150px;
+  height: 135px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: 'Arial, Helvetica, sans-serif;
+  font-weight: 10px;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .5;
+  transition: .3s;
+}
+
+#lattes {
+  background-color: teal;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#lattes:hover {
+  border: 2px solid teal;
+  background-color: white;
+  color: teal;
+}
+
+.bio, .card, .social_media {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+  width: 480px;
+  margin: 16px auto;
+  text-align: center;
+}
+
+.social_media ul.flex {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+/*#moto_img {
+  float: bottom;
+  width: 40px;
+  height: 40px;
+}*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card, .bio, .social_media {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card, .bio, .social_media {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card, .bio, .social_media {
+    width: 300px;
+  }
