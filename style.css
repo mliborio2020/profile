@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
@@ -27,7 +27,7 @@ p {
   text-align: center;
 }
 
-a {
+/*a {
   color: blue;
   text-decoration: none;
 }
@@ -35,7 +35,7 @@ a {
 a:hover {
   opacity: .5;
   transition: .3s;
-}
+}*/
 
 #lattes {
   background-color: teal;
@@ -57,22 +57,26 @@ a:hover {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
-  width: 480px;
+  width: 450px;
   margin: 16px auto;
   text-align: center;
 }
 
-.social_media ul.flex {
+.social_media ul {
+  padding-left: 0;
   list-style: none;
   display: flex;
   justify-content: space-around;
-  padding-left: 0px;
+  font-size: 8px;
 }
-/*#moto_img {
-  float: bottom;
-  width: 40px;
-  height: 40px;
-}*/
+
+.fab {
+  color: teal;
+}
+
+.fab:hover {
+  opacity: .5;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -91,3 +95,4 @@ a:hover {
   .card, .bio, .social_media {
     width: 300px;
   }
+
