@@ -51,6 +51,7 @@ p {
   width: 450px;
   margin: 16px auto;
   text-align: center;
+  /*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);*/
   /*background-image: url('./images/fundo_preto.png');*/
   background-image: url('./images/fundo-hexagonal-de-metal-preto_44695-21_desfocado.jpg');
 }
@@ -59,7 +60,7 @@ p {
   padding-left: 0;
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 8px;
 }
 
