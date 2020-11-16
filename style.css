@@ -51,7 +51,8 @@ p {
   width: 450px;
   margin: 16px auto;
   text-align: center;
-  background-image: url('./images/fundo_preto.png');
+  /*background-image: url('./images/fundo_preto.png');*/
+  background-image: url('./images/fundo-hexagonal-de-metal-preto_44695-21.jpg');
 }
 
 .social_media ul {
